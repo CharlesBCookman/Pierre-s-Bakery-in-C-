@@ -1,6 +1,6 @@
-namespace ShapeTracker.Models
+namespace Pierre's-Bakery.Models
 {
-  public class Triangle
+  public class Goods
   {
     // Code for Triangle business logic will go here.
   }

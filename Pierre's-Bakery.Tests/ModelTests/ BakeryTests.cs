@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ShapeTracker.Models;
+using Pierre's-Bakery.Models;
 
-namespace ShapeTracker.Tests
+namespace Pierre's-Bakery.Tests
 {
   [TestClass]
-  public class TriangleTests
+  public class GoodsTests
   {
     // Tests will go here!
   }
