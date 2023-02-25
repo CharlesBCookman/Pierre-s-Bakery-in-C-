@@ -9,18 +9,17 @@ namespace Bakery
     {
       Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
       Console.WriteLine("Welcome to Pierre's Bakery");
-      Console.WriteLine("We offer");
-      // Console.WriteLine("Please enter a number:");
-      // string stringNumber1 = Console.ReadLine();  
-      // Console.WriteLine("Enter another number:");
-      // string stringNumber2 = Console.ReadLine();  
-      // Console.WriteLine("Enter a third number:");
-      // string stringNumber3 = Console.ReadLine();  
-      // int length1 = int.Parse(stringNumber1);  
-      // int length2 = int.Parse(stringNumber2);  
-      // int length3 = int.Parse(stringNumber3);  
-      // Triangle tri = new Triangle(length1, length2, length3);
-      // ConfirmOrEditTriangle(tri);
+      Console.WriteLine("We offer Fresh Baked Bread and our Cinnamon Pastry. For our Fresh Baked Bread, there is currently on sale for $5 each and we have a special of buy 2 get 1 free. Our Cinnamon Pastry is $2 each and are Buy 3 get 1 free.");
+      Console.WriteLine("How many of our Fresh Baked Bread would you like?");
+      string orderBread = Console.ReadLine();  
+      Console.WriteLine("How many of our Cinnamon Pastry would you like?");
+      string orderPastry = Console.ReadLine();  
+      int numberBread = int.Parse(orderBread);  
+      int numberPastry = int.Parse(orderPastry);  
+      Order recieve = new Order(length1, length2, length3);
+      Console.WriteLine("Your order of " + numberBread + " Fresh Baked Bread and " + numberPastry + " Cinnamon Pastyhas been recieved.")
+      ConfirmOrder(order);
+
     }
 
     // static void ConfirmOrEditTriangle(Triangle tri)
