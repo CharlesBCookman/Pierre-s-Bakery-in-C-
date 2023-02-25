@@ -16,7 +16,7 @@ namespace Bakery
       string orderPastry = Console.ReadLine();  
       int numberBread = int.Parse(orderBread);  
       int numberPastry = int.Parse(orderPastry);  
-      Order recieve = new Order(length1, length2, length3);
+      TotalPrice recieve = new TotalPrice(numberBread, numberPastry);
       Console.WriteLine("Your order of " + numberBread + " Fresh Baked Bread and " + numberPastry + " Cinnamon Pastyhas been recieved.")
       ConfirmOrder(order);
 
