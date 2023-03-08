@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pierre's-Bakery.Models;
+using PierresBakery.Models;
 
-namespace Pierre's-Bakery.Tests
+namespace PierresBakery.Tests
 {
   [TestClass]
   public class GoodsTests

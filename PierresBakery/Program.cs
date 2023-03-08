@@ -1,5 +1,5 @@
 using System;
-using Pierre's-Bakery.Models;
+using PierresBakery.Models;
 
 namespace Bakery
 {
@@ -17,7 +17,7 @@ namespace Bakery
       int numberBread = int.Parse(orderBread);  
       int numberPastry = int.Parse(orderPastry);  
       TotalPrice recieve = new TotalPrice(numberBread, numberPastry);
-      Console.WriteLine("Your order of " + numberBread + " Fresh Baked Bread and " + numberPastry + " Cinnamon Pastyhas been recieved.")
+      Console.WriteLine("Your order of " + numberBread + " Fresh Baked Bread and " + numberPastry + " Cinnamon Pastyhas been recieved.");
       ConfirmOrder(order);
 
     }

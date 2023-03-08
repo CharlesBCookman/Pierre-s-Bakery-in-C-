@@ -1,4 +1,4 @@
-namespace Pierre's-Bakery.Models
+namespace PierresBakery.Models
 {
   public class Bread
   {
